@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="carousel_image_card_width">120dp</dimen>
+    <dimen name="carousel_image_card_height">200dp</dimen>
+
+    <dimen name="more_suggest_image_card_width">240dp</dimen>
+    <dimen name="more_suggest_image_card_height">120dp</dimen>
+
+    <dimen name="double_image_card_width">160dp</dimen>
+    <dimen name="double_image_card_height">68dp</dimen>
+
+    <dimen name="lb_browse_rows_margin_top">128dp</dimen>
+
+    <dimen name="default_image_card_width">224dp</dimen>
+    <dimen name="default_image_card_height">126dp</dimen>
+
+    <dimen name="movie_image_card_width">120dp</dimen>
+    <dimen name="movie_image_card_height">172dp</dimen>
+</resources>

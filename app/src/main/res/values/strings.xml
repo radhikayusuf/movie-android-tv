@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">mvp-android-tv</string>
+    <string name="data_not_available">Data not avaiable</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback">
+
+    </style>
+
+
+    <style name="MovieCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewImageStyle">@style/MovieCardImageViewStyle</item>
+        <item name="imageCardViewStyle">@style/MovieCardViewStyle</item>
+        <item name="imageCardViewTitleStyle">@style/MovieCardTitleStyle</item>
+    </style>
+
+    <style name="MovieCardImageViewStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">@dimen/carousel_image_card_width</item>
+        <item name="android:layout_height">@dimen/carousel_image_card_height</item>
+        <item name="android:layout_margin">24dp</item>
+    </style>
+
+    <style name="MovieCardViewStyle" parent="Widget.Leanback.ImageCardViewStyle">
+        <item name="cardType">infoUnder</item>
+        <item name="infoAreaBackground">@drawable/background_movie_selector</item>
+    </style>
+
+    <style name="MovieCardTitleStyle" parent="Widget.Leanback.ImageCardView.TitleStyle">
+        <item name="android:textColor">@color/text_movie_selector</item>
+    </style>
+
+    <style name="DoubleCardTheme"></style>
+
+
+</resources>
