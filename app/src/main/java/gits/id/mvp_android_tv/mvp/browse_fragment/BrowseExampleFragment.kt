@@ -38,7 +38,7 @@ class BrowseExampleFragment : BrowseFragment(), BrowseExampleContract.View {
     }
 
     override fun createTVComponent() {
-        title = "Gits Indonesia"
+        title = "GITS Indonesia"
         brandColor = ContextCompat.getColor(activity, R.color.colorPrimary)
         searchAffordanceColor = ContextCompat.getColor(activity, R.color.colorAccent)
 
